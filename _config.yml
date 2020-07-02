@@ -20,10 +20,10 @@ description:
 baseurl: "" # the optional subpath of your site, e.g. "/blog"
 url: "https://junhee4827.github.io" # the base hostname & protocol for your site e.g. "https://junhee4827.github.io"
 author:
-  name:junhee4827
+  name: junhee4827
   twitter:
   picture:
-twitter_username:
+twitter_username:x
 github_username:
 logo: # path of site logo, e.g. "/assets/images/logo.png"
 search: # true, false (default)
