@@ -1,14 +1,15 @@
 ---
 layout: default
 ---
-{% include nav.html %}
 
-{% if page.background == "grey" or page.background == "gray" %}
-<script>
-document.getElementById("page-top").className="bg-light";
-</script>
-{% endif %}
+{% include page-intro.html %}
 
-<div class="container" id="pagecontainer">
-{{ content }}
-</div>
+<main id="main" class="page-content" aria-label="Content">
+  <div class="inner">
+    <article class="entry-wrap">
+      <div class="entry-content">
+        {{ content }}
+      </div>
+    </article>
+  </div>
+</main>
