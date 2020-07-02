@@ -19,6 +19,9 @@ email:
 description:
 baseurl: "" # the optional subpath of your site, e.g. "/blog"
 url: "https://junhee4827.github.io" # the base hostname & protocol for your site e.g. "https://junhee4827.github.io"
+# Gems
+plugins_dir:
+  - jekyll-paginate
 author:
   name: junhee4827
   twitter:
